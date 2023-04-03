@@ -83,5 +83,22 @@
 				)
 			));
 		}
+
+		/**
+		 * Desabilita uma Empresa pelo Identificador Único
+		 * 
+		 * @param string $id id da empresa que deseja consultar
+		 * @return boolean
+		 */
+		public function desabilitar($id) {
+			$this->callOperation(array(
+			  'path' => '/empresas/{empresaId}/desabilitar',
+			  'parameters' => array(
+					'path' => array(
+						'empresaId' => $id
+					)
+				)
+			));
+		}
 	}
 ?>

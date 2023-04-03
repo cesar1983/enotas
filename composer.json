@@ -1,8 +1,8 @@
 {
     "name": "enotas/php-client",
-    "description": "eNotas GW API client for PHP",
+    "description": "eNotas fork com algums métodos a mais implementados",
     "keywords": ["eNotas", "NFS-e"],
-    "homepage": "https://github.com/eNotasGW/php-client",
+    "homepage": "https://github.com/cesar1983/enotas",
     "type": "library",
     "license": "MIT",
     "authors": [
