@@ -1,5 +1,5 @@
 {
-    "name": "enotas-hq/php-client",
+    "name": "enotas/php-client",
     "description": "eNotas fork com algums métodos a mais implementados",
     "keywords": ["eNotas", "NFS-e"],
     "homepage": "https://github.com/cesar1983/enotas",
