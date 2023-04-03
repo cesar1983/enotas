@@ -100,5 +100,23 @@
 				)
 			));
 		}
+
+		/**
+		 * Habilita uma Empresa pelo Identificador Único
+		 * 
+		 * @param string $id id da empresa que deseja consultar
+		 * @return boolean
+		 */
+		public function habilitar($id) {
+			$this->callOperation(array(
+			  'path' => '/empresas/{empresaId}/habilitar',
+			  'parameters' => array(
+					'path' => array(
+						'empresaId' => $id
+					)
+				)
+			));
+		}
+
 	}
 ?>
