@@ -92,8 +92,9 @@
 		 */
 		public function desabilitar($id) {
 			$this->callOperation(array(
-			  'path' => '/empresas/{empresaId}/desabilitar',
-			  'parameters' => array(
+				'method' => 'POST',
+			  	'path' => '/empresas/{empresaId}/desabilitar',
+			  	'parameters' => array(
 					'path' => array(
 						'empresaId' => $id
 					)
@@ -109,8 +110,9 @@
 		 */
 		public function habilitar($id) {
 			$this->callOperation(array(
-			  'path' => '/empresas/{empresaId}/habilitar',
-			  'parameters' => array(
+				'method' => 'POST',
+			  	'path' => '/empresas/{empresaId}/habilitar',
+			  	'parameters' => array(
 					'path' => array(
 						'empresaId' => $id
 					)
