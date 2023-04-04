@@ -93,6 +93,7 @@
 		public function desabilitar($id) {
 			$this->callOperation(array(
 				'method' => 'POST',
+				'decodeResponse' => FALSE,
 			  	'path' => '/empresas/{empresaId}/desabilitar',
 			  	'parameters' => array(
 					'path' => array(
@@ -111,6 +112,7 @@
 		public function habilitar($id) {
 			$this->callOperation(array(
 				'method' => 'POST',
+				'decodeResponse' => FALSE,
 			  	'path' => '/empresas/{empresaId}/habilitar',
 			  	'parameters' => array(
 					'path' => array(
